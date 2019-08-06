@@ -30,11 +30,12 @@ export default class FollowersCard extends React.Component{
             <div className='flex'>
                 {this.state.users.map(users=> {
                     return ( 
-                    <div className='box'>
-                        <p className='yuh'>{users.login}</p>                        
-                        <p className='yuh'>{users.id}</p>
-                        <p>{users.type}</p>
-                    </div>
+                        <Followers login={users.login}/>
+                    // <div className='box'>
+                    //     <p className='yuh'>{users.login}</p>                        
+                    //     <p className='yuh'>{users.id}</p>
+                    //     <p>{users.type}</p>
+                    // </div>
                     )
                 })}
             </div>

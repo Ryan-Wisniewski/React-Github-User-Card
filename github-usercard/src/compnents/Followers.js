@@ -3,7 +3,7 @@ import React from 'react'
 function Followers(props){
     return(
         <div>
-            <p>{props.name}</p>
+            <p>{props.login}</p>
             <p></p>
             <p></p>
             <p></p>
