@@ -1,23 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+import UserCard from './compnents/UserCard'
+import FollowersCard from './compnents/FollowersCard'
+
+import './App.css';
+// name: Ryan-Wisniewski
+// api: https://api.github.com/users/
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>do something</h1>
+        <UserCard />
+        <FollowersCard />
       </header>
     </div>
   );
