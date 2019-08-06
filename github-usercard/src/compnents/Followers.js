@@ -2,11 +2,11 @@ import React from 'react'
 
 function Followers(props){
     return(
-        <div>
-            <p>{props.login}</p>
-            <p></p>
-            <p></p>
-            <p></p>
+        <div className='box'>
+            <p className='yuh'>{props.login}</p>                        
+            <p className='yuh'>{props.id}</p>
+            <p className='yuh'>{props.type}</p>
+
         </div>
     )
 }
